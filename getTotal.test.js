@@ -8,9 +8,11 @@ const getTotal = (array) => {
 
 describe('getTotal()', () =>  {
     test('returns the toal sum of the array', () => {
+        
         //Arange
         const input = [1, 2, 3, 4, 5 ];
-        const expectedOut = 15; 
+        const expectedOut = 15;
+
         //Act
         const result = getTotal(input);
 
